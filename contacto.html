@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/css/contacto.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="body__contacto">
+    <nav>
+        <div class="logo">
+            <h4>Marketing Strategy</h4>
+        </div>
+        <ul class="nav_links">
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/nosotros.html">Nosotros</a></li>
+            <li><a href="/contacto.html">Contacto</a></li>
+            <li><a href="/agenda.html">Agenda</a></li>
+        </ul>
+
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    
+    <section class="formulario">
+        <form class="form" action="https://formsubmit.co/7fd364e36a9034c2303803a144411411" method="POST">
+            <div class="form__container">
+                <h2 class="form__title">Cantáctanos</h2>
+                <input type="text" class="form__input" placeholder="Nombre:" name="Nombre">
+                <input type="text" class="form__input" placeholder="Email:" name="Email">
+                <textarea class="form__input form__input--message" placeholder="Mensaje:" name="Mensaje"></textarea>
+    
+                <button type="submit" class="form__cta">Enviar</button>
+    
+                <input type="hidden" name="_next" value="http://127.0.0.1:5501/contacto.html">
+                <input type="hidden" name="_captcha" value="false">
+                
+            </div>
+        </form>
+    </section>
+
+    <section class="footer__contacto">
+        <footer class="footer">
+            <section class="footer__container container">
+                <nav class="nav nav--footer">
+                    <h2 class="footer__title">Titulo</h2>
+    
+                    <ul class="nav__link nav__link--footer">
+                        <li class="nav__items">
+                            <a href="/index.html" class="nav__links">Inicio</a>
+                        </li>
+                        <li class="nav__items">
+                            <a href="/nosotros.html" class="nav__links">Nosotros</a>
+                        </li>
+                        <li class="nav__items">
+                            <a href="/contacto.html" class="nav__links">Contacto</a>
+                        </li>
+                        <li class="nav__items">
+                            <a href="/agenda.html" class="nav__links">Agenda</a>
+                        </li>
+                    </ul>
+                </nav>
+    
+                <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                    <h2 class="footer__newsletter">Suscribete a la newsletter</h2>
+                    <div class="footer__inputs">
+                        <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                        <input type="submit" value="Registrate" class="footer__submit">
+                    </div>
+                </form>
+            </section>
+    
+            <section class="footer__copy container">
+                <div class="footer__social">
+                    <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                    <a href="#" class="footer__icons"><img src="./images/instagram.svg" class="footer__img"></a>
+                    <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+                </div>
+    
+                <h3 class="footer__copyright">Derechos reservados &copy; MKT.STRATEGY</h3>
+            </section>
+        </footer>
+    </section>
+    
+
+    <script src="/js/contacto.js"></script>
+</body>
+</html>
