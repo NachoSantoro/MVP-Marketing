@@ -1,0 +1,160 @@
+
+    /* FOOTER */
+
+footer {
+    background: #a1a1a1;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    bottom: 0;
+    width: 100%;
+  }
+  
+
+  .contacto__titulo{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 50px;
+    padding-left: 60px;
+  }
+  
+  footer .container h1,
+  footer .container p {
+    padding: 48px 0;
+  }
+  
+  footer .container .contenido {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+  }
+  
+  footer #contacto form {
+    margin: auto;
+    width: 550px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer #contacto form .textarea-container {
+    width: 100%;
+  }
+  
+  footer #contacto form textarea {
+    padding: 6px;
+  }
+  
+  footer #contacto form input,
+  footer #contacto form textarea,
+  footer #contacto form .submit {
+    margin-top: 5px;
+    border: none;
+  }
+  
+  footer #contacto form label {
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  footer #contacto form input {
+    display: block;
+    text-align: left;
+    width: 250px;
+    padding: 6px;
+    border: none;
+  }
+  
+  footer #contacto form textarea,
+  footer #contacto form .submit,
+  footer #contacto form .submit button {
+    width: 100%;
+  }
+
+  .telefono-arg{
+    margin-top: 10px;
+    
+  }
+
+.img-circle-arg {
+    vertical-align: middle;
+    height: 6%;
+    width: 6%;
+}
+
+.telefono-uru{
+  margin-top: 20px;
+  margin-right: 7px;
+}
+
+.img-circle {
+    vertical-align: middle;
+    height: 8.2%;
+    width: 8.2%;
+}
+  
+  footer .social-media button {
+    margin: 30px 10px 15px 10px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+  }
+  
+  footer .social-media button:hover {
+    background-color: var(--yellow);
+  }
+  
+  footer .social-media .fa {
+    font-size: 20px;
+    color: black;
+  }
+  
+  footer hr {
+    border: 0;
+    height: 1px;
+    background: #fff;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  
+  
+  @media (max-width: 1200px) {
+    footer .container .contenido {
+      display: block;
+    }
+    footer #contacto form .submit {
+      margin-bottom: 48px;
+    }
+    footer .links li {
+      line-height: 24px;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    footer #contacto form {
+      width: 100%;
+    }
+    footer #contacto form {
+      flex-direction: column;
+    }
+    footer #contacto form .input-container,
+    footer #contacto form .textarea-container,
+    footer #contacto form label,
+    footer #contacto form input,
+    footer #contacto form textarea,
+    footer #contacto form .submit,
+    footer #contacto form .submit button {
+      width: 90%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    footer .contenido3 {
+      flex-direction: column;
+    }
+  }
