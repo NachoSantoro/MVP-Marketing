@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,16 +12,17 @@
     <link rel="stylesheet" href="/css/contacto.css">
     <link rel="stylesheet" href="/css/footer.css">
 </head>
+
 <body>
     <nav>
-      <div class="logo">
-        <h4>MVP Marketing</h4>
-        <div class="banderas">
-          <img class = "img-logo-arg" src="images/argentina.png">
-          <img class = "img-logo-uru" src="images/uruguay.PNG">
-          <img class="img-logo-usa" src="images/usa_bandera.png">
+        <div class="logo">
+            <h4>MVP Marketing</h4>
+            <div class="banderas">
+                <img class="img-logo-arg" src="images/argentina.png">
+                <img class="img-logo-uru" src="images/uruguay.PNG">
+                <img class="img-logo-usa" src="images/usa_bandera.png">
+            </div>
         </div>
-      </div>
         <ul class="nav_links">
             <li><a href="/index.html">Inicio</a></li>
             <li><a href="/nosotros.html">Nosotros</a></li>
@@ -34,45 +36,45 @@
     </nav>
     <div class="inicio">
         <section class="hero__container container">
-          
-            <img class = "logo_mvp" src="images/mvp_marketing.png" alt="">
-            
+
+            <img class="logo_mvp" src="images/mvp_marketing.png" alt="">
+
             <h1 class="hero__title">Marketing Digital para PyMEs y Profesionales</h1>
-            <p class="hero__paragraph">Te acercamos al mundo del Marketing Digital para maximizar tus ventas y llegar a potenciales clientes, brindándote atención 100%  personalizada.</p>
+            <p class="hero__paragraph">Te acercamos al mundo del Marketing Digital para maximizar tus ventas y llegar a potenciales clientes, brindándote atención 100% personalizada.</p>
             <button class="cta"><a href="https://calendly.com/mvpagenciadigital/30min">Agendá una reunion con Nosotros</a></button>
-            
-          
-            
+
+
+
         </section>
         <section class="gif">
             <img src="images/gif_completo.gif">
         </section>
 
     </div>
-    
+
     <main>
         <section class="galeria__imagenes">
             <h1 class="titulo__galeria">¿Que Incluímos?</h1>
-              <div class="galeria">
+            <div class="galeria">
                 <div class="item">
-                  <img src="images/communityManager.png" alt="">
-                  <p>Community Manager</p>
+                    <img src="images/communityManager.png" alt="">
+                    <p>Community Manager</p>
                 </div>
                 <div class="item">
-                  <img src="images/emailMarketing.png" alt="">
-                  <p>Email Marketing</p>
+                    <img src="images/emailMarketing.png" alt="">
+                    <p>Email Marketing</p>
                 </div>
                 <div class="item">
-                  <img src="images/publicidadDigital.png" alt="">
+                    <img src="images/publicidadDigital.png" alt="">
                     <p>Publicidad Digital</p>
                 </div>
                 <div class="item">
-                  <img src="images/diseño.png" alt="">
+                    <img src="images/diseño.png" alt="">
                     <p>Diseño de páginas web y tiendas online</p>
-                  
+
                 </div>
-              </div>
-      </section>
+            </div>
+        </section>
 
         <section class="container about">
             <h2 class="subtitle">Algunas de las marcas que confían en nosotros</h2>
@@ -80,22 +82,22 @@
             <div class="about__main">
                 <article class="about__icons">
                     <img src="./images/torque.png" class="about_torque">
-                    
-                    
+
+
                 </article>
 
                 <article class="about__icons">
-                    <img src="./images/fitchin-sn.png" class="about_fitchin"> 
-                    
-                    
+                    <img src="./images/fitchin-sn.png" class="about_fitchin">
+
+
                 </article>
 
                 <article class="about__icons">
                     <img src="./images/enCasa.PNG" class="about__casa">
-                    
+
                 </article>
             </div>
-            
+
             <div class="wrapper">
                 <div class="contenedor">
                     <span class="leer-mas">
@@ -124,123 +126,93 @@
                 </div>
             </div>
         </section>
-  
+
     </main>
 
     <footer class="footer" id="footer">
-      <div class="container">
-        <h1 class="contacto__titulo">CONTACTO</h1>
-        <div class="contenido">
-          <div id="contacto">
-            <form action="https://formsubmit.co/e0ea5404e4307e01cf88156a828328ef" method="POST">
-              <div class="input-container">
-                <label for="nombre">Nombre</label>
-                <input
-                  required
-                  type="text"
-                  name="nombre"
-                  id="nombre"
-                  placeholder="Ingresar nombre"
-                />
-              </div>
-              <div class="input-container">
-                <label for="apellido">Apellido</label>
-                <input
-                  required
-                  type="text"
-                  name="apellido"
-                  id="apellido"
-                  placeholder="Ingresar apellido"
-                />
-              </div>
-              <div class="input-container">
-                <label for="email">Correo electrónico</label>
-                <input
-                  required
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Ingresar correo electrónico"
-                />
-              </div>
-              <div class="input-container">
-                <label for="asunto">Asunto</label>
-                <input
-                  required
-                  type="text"
-                  name="asunto"
-                  id="asunto"
-                  placeholder="Ingresar asunto"
-                />
-              </div>
-              <div class="textarea-container">
-                <label for="mensaje">Mensaje</label>
-                <textarea
-                  required
-                  name="mensaje"
-                  id="mensaje"
-                  placeholder="Ingresar mensaje"
-                  cols="30"
-                  rows="10"
-                ></textarea>
-              </div>
-              <div class="submit">
-                  <button class="boton" id="boton-enviar">Enviar</button>
-                  <script>
-                    document.querySelector('#boton-enviar').addEventListener('click', function() {
-                      window.location.href = 'mensaje_exitoso.html';
-                    });
-                    </script>
-              </div>
+        <div class="container">
+            <h1 class="contacto__titulo">CONTACTO</h1>
+            <div class="contenido">
+                <div id="contacto">
 
-              <input type="hidden" name="_next" value="https://mvpagenciadigital.com/mensaje_exitoso.html">
-              <input type="hidden" name="_captcha" value="false">
+                    <form action="https://formsubmit.co/e0ea5404e4307e01cf88156a828328ef" method="POST">
+                        <div class="input-container">
+                            <label for="nombre">Nombre</label>
+                            <input required type="text" name="nombre" id="nombre" placeholder="Ingresar nombre" />
+                        </div>
+                        <div class="input-container">
+                            <label for="apellido">Apellido</label>
+                            <input required type="text" name="apellido" id="apellido" placeholder="Ingresar apellido" />
+                        </div>
+                        <div class="input-container">
+                            <label for="email">Correo electrónico</label>
+                            <input required type="email" name="email" id="email" placeholder="Ingresar correo electrónico" />
+                        </div>
+                        <div class="input-container">
+                            <label for="asunto">Asunto</label>
+                            <input required type="text" name="asunto" id="asunto" placeholder="Ingresar asunto" />
+                        </div>
+                        <div class="textarea-container">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea required name="mensaje" id="mensaje" placeholder="Ingresar mensaje" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="submit">
+                            <button class="boton" id="boton-enviar">Enviar</button>
+                            <script>
+                                document.querySelector('#boton-enviar').addEventListener('click', function() {
+                                    window.location.href = 'mensaje_exitoso.html';
+                                });
+                            </script>
+                        </div>
 
-            </form>
-        </div>
-          <div class="contenido2">
-              <h4>Más Información</h4>
-              <p>Mail de contacto: mvpagenciadigital@gmail.com</p>
-              <div class="telefono-arg">
-                  <img class = "img-circle-arg" src="images/argentina.png"> Teléfono Argentina: +54-11-3154-5767
-                  <button class="whatsapp-btn-arg"><i class="fab fa-whatsapp"></i>Contacto por WhatsApp</button>
-                  <script>
-                    document.querySelector('.whatsapp-btn-arg').addEventListener('click', function() {
-                      window.location.href = 'https://wa.me/541131545767';
-                    });
-                  </script>
-              </div>
-              <div class="telefono-uru">
-                  <img class = "img-circle" src="images/uruguay.PNG"> Teléfono Uruguay: +598-98-675-833
-                  <button class="whatsapp-btn-uru"><i class="fab fa-whatsapp"></i>Contacto por WhatsApp</button>
-                  <script>
-                    document.querySelector('.whatsapp-btn-uru').addEventListener('click', function() {
-                      window.location.href = 'https://wa.me/59898675833';
-                    });
-                  </script>
-              </div>
-              
-              <p>
-                MVP Marketing
-              </p>
-            <div class="social-media">
-              <button>
+                        <input type="hidden" name="_next" value="https://mvpagenciadigital.com/mensaje_exitoso.html">
+                        <input type="hidden" name="_captcha" value="false">
+
+                    </form>
+                </div>
+                <div class="contenido2">
+                    <h4>Más Información</h4>
+                    <p>Mail de contacto: mvpagenciadigital@gmail.com</p>
+                    <div class="telefono-arg">
+                        <img class="img-circle-arg" src="images/argentina.png"> Teléfono Argentina: +54-11-3154-5767
+                        <button class="whatsapp-btn-arg"><i class="fab fa-whatsapp"></i>Contacto por WhatsApp</button>
+                        <script>
+                            document.querySelector('.whatsapp-btn-arg').addEventListener('click', function() {
+                                window.location.href = 'https://wa.me/541131545767';
+                            });
+                        </script>
+                    </div>
+                    <div class="telefono-uru">
+                        <img class="img-circle" src="images/uruguay.PNG"> Teléfono Uruguay: +598-98-675-833
+                        <button class="whatsapp-btn-uru"><i class="fab fa-whatsapp"></i>Contacto por WhatsApp</button>
+                        <script>
+                            document.querySelector('.whatsapp-btn-uru').addEventListener('click', function() {
+                                window.location.href = 'https://wa.me/59898675833';
+                            });
+                        </script>
+                    </div>
+
+                    <p>
+                        MVP Marketing
+                    </p>
+                    <div class="social-media">
+                        <button>
                 <a
-                  href=""
+                  href="https://instagram.com/mvp.mkt?igshid=YmMyMTA2M2Y="
                   target="_blank"
                 >
                   <i class="fa fa-instagram"></i>
                 </a>
               </button>
+                    </div>
+                </div>
             </div>
-          </div>
+            <hr />
+            <p class="marca-nombre">&copy; MVP Marketing</p>
+            <br />
         </div>
-        <hr />
-        <p class="marca-nombre">&copy; MVP Marketing</p>
-        <br />
         </div>
-      </div>  
-  </footer>
+    </footer>
 
     <script src="./js/slider.js"></script>
     <script src="./js/marcas.js"></script>
@@ -248,4 +220,5 @@
     <script src="./js/scroll.js"></script>
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
