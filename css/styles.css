@@ -36,6 +36,11 @@ nav {
     align-items: center;
 }
 
+.logo-inicio {
+    text-decoration: none;
+    color: white;
+}
+
 .img-logo-arg {
     margin-left: 20px;
     width: 3%;
@@ -352,7 +357,7 @@ div.galeria {
 }
 
 .item img {
-    width: 150px;
+    width: 120px;
     /* ajusta el ancho de cada imagen */
     height: auto;
     /* ajusta la altura de forma proporcional al ancho */
