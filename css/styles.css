@@ -350,14 +350,14 @@ div.galeria {
 }
 
 .item {
-    margin: 10px;
+    margin: 20px;
     text-align: center;
     margin-top: 1px;
     margin-bottom: 30px;
 }
 
 .item img {
-    width: 120px;
+    width: 130px;
     /* ajusta el ancho de cada imagen */
     height: auto;
     /* ajusta la altura de forma proporcional al ancho */
